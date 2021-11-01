@@ -1,0 +1,69 @@
+*{margin: 0;
+    padding: 0;}
+
+    #continer{
+        display: flex;
+        justify-content: center;
+    }
+ 
+#backround{
+    z-index: -100;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+#myDiv{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+.card{
+width:30%;
+border-radius: 10%;
+background-color:rgba(7, 0, 0, 0.26);
+
+text-align: center;
+margin-bottom: 5vh;
+justify-content: center;
+align-items: center;
+font-size: large;
+font-family:cursive;
+color: blanchedalmond;
+
+
+}
+
+#mySelect{
+    color:whitesmoke;
+    background-color: rgba(12, 12, 12, 0.425);
+    font-size: larger;
+    border:solid rgb(50, 130, 205);
+}
+
+#searchInput{
+    color:whitesmoke;
+    font-size: x-large;
+    background-color: rgba(15, 15, 15, 0.664);
+    height: 5vh;
+    border:solid rgb(50, 130, 205);
+}
+
+
+#searchBut{
+    border-radius: 20%;
+}
+
+span{
+    color: tomato;
+    font-weight: 200;
+    font-size: x-large;
+    
+}
+.card p{
+    transition: 1s;
+}
+
+.card p:hover{
+    font-size: x-large;
+}
